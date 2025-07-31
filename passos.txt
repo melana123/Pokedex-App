@@ -1,0 +1,16 @@
+
+
+dotnet new sln --name LaKzaTCC
+dotnet new mvc -o LaKzaTCC
+dotnet sln add LaKzaTCC\LaKzaTCC.csproj
+
+cd LaKzaTCC
+
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.7
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.7
+dotnet add package MySql.EntityFrameworkCore --version 9.0.6
+
+ dotnet watch run    
+ npx expo start
