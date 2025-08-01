@@ -1,4 +1,5 @@
-
+git config --global user.name melana123
+git config --global user.email melana.etec@gmail.com
 
 dotnet new sln --name LaKzaTCC
 dotnet new mvc -o LaKzaTCC
