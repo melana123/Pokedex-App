@@ -15,8 +15,7 @@ export default function Card({ pokemon }) {
     }
       style={[styles.container, 
         { backgroundColor: `${POKEMON_TYPE_COLORS[pokemon.Tipo[0].Nome]}` },
-      ]}
-    >
+      ]}>
       <View style={styles.info}>
         <Text style={styles.numero}>#{pokemon.Numero}</Text>
         <Text style={styles.nome}>{pokemon.Nome}</Text>

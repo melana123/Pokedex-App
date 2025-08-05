@@ -14,4 +14,4 @@ dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9
 dotnet add package MySql.EntityFrameworkCore --version 9.0.6
 
  dotnet watch run    
- npx expo start
+ npx expo start 
